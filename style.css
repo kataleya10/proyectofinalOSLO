@@ -1,0 +1,71 @@
+:root {
+    /* color */
+    --Rojo: #d03b40;
+    --Beige: #ded6c0;
+    --Blanco: #f5f0ed;
+    --Gris: #241d1b;
+    --Texto-claro: #f5f0ed;
+    --Texto-oscuro: #3c3c3b;
+
+    /* tamaños */
+    --Encabezado-1r-nivel: 44px;
+    --Encabezado-2º-nivel: 28px;
+    --Encabezado-3r-nivel: 24px;
+    --Cuerpo-texto: 16px;
+    --Botones: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../proyectofinalOSLO/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../proyectofinalOSLO/fonts/OpenSans-Regular.ttf);
+}
+
+/*header*/
+header {
+    background-image: url(imag/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li a,
+.text1 {
+    color: var(--Texto-claro);
+    padding: 20px;
+}
+
+.text1 {
+    padding-top: 300px;
+
+}
+
+ul {
+    text-align: right;
+}
+
+
+.text1 h1,
+.desayunar h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text1 p,
+.desayunar p {
+    text-align: center;
+    font-size: x-large;
+}
+
+.desayunar {
+    background-image: url(imag/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
