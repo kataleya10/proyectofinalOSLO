@@ -50,7 +50,26 @@ li a,
 ul {
     text-align: right;
 }
-
+nav ul {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    list-style: none;
+    margin-left: 50px;
+  }
+  
+  nav ul li a {
+    color: whitesmoke;
+    font-family:OpenSans-Regular ;
+    font-size:30px;
+    text-decoration: none;
+  }
 
 .text1 h1,
 .desayunar h2 {
@@ -87,4 +106,97 @@ background-color:#d03b40;
   width: 100%;
   height: 350px;
   margin-bottom: 0px;
+}
+.color-left {
+    background-color: var(--Rojo);
+    color: var(--Beige);
+}
+
+.productos{
+    background-color: var(--Beige);
+    color: var(--Rojo);
+}
+
+.color-one a {
+    color: var(--Rojo);
+}
+
+.color-two a {
+    color: var(--Beige);
+}
+
+/* section 2 */
+
+.button a {
+    color: var(--Texto-claro);
+}
+
+/* section 3 */
+
+.product-text {
+    color: var(--Texto-oscuro);
+}
+
+/* view */
+
+li, h1, h2,  {
+    text-transform: uppercase;
+    font-family: 'OpenSans-Extrabold';
+}
+
+p {
+    text-transform: capitalize;
+    font-family: 'OpenSans-Regular';
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-weight: 700;
+}
+
+.espacio-one,.espacio-two {
+    text-align: center;
+}
+
+.espacio-one {
+    padding-top: 130px;
+    font-size: 30px;
+}
+
+.espacio-two {
+    padding-top: 20px;
+}
+
+#pie {
+    padding: 50px;
+}
+
+.button {
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Regular';
+
+}
+
+.button a {
+    border: solid 4px;
+    padding: 20px;
+}
+
+.button a:hover {
+    color: var(--Rojo);
+}
+
+.correo:hover {
+    color: rgba(208, 59, 64, 0.5);
+}
+
+
+#logo {
+    position: absolute;
+    padding: 20px;
 }
